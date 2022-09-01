@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/moving_Cam/480p15/partial_movie_files/FollowingGraphCamera/1263160807_2948797156_2227616685.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/moving_Cam/480p15/partial_movie_files/FollowingGraphCamera/4247874379_1674335929_3503123331.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/moving_Cam/480p15/partial_movie_files/FollowingGraphCamera/626531634_2243974563_3516240434.mp4'

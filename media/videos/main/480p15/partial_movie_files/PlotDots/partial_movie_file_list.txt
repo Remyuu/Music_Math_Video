@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/PlotDots/3163782288_3406031314_2334220719.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/PlotDots/2201830969_1898599373_1503673680.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/PlotDots/2201830969_329969645_748580785.mp4'

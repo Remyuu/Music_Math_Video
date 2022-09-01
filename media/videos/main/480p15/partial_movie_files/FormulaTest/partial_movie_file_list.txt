@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/FormulaTest/3163782288_1881204052_391148719.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/FormulaTest/2201830969_169566864_2032254514.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/FormulaTest/2201830969_429646633_2032254514.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/FormulaTest/2201830969_2901643334_2032254514.mp4'
+file 'file:/Users/remoo/Documents/animation/manim/Music_Math_Video/media/videos/main/480p15/partial_movie_files/FormulaTest/2201830969_329969645_4114287662.mp4'
