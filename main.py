@@ -10,7 +10,8 @@
         1、改进Introduction视频流程
     8.31
         1、完成多公式多轨道切换图像
-        2、
+    9.1
+        1、
  
 
 '''
@@ -25,12 +26,6 @@ import librosa
 import numpy as np
 import scipy
 import pickle #写出读取打包 序列化二进制list
-
-# 文件都是以二进制的方式储存在硬盘上
-# 那么如果有一个int ：13 存在硬盘，转成二进制即可
-# 如果我们有一个list [1,2,3,4,5]呢 甚至是 ["hello",12,1.11,Dot()]
-# 那么我们就要序列化list 打包好--使用pickle
-# 所有文件都是序列化的，方式不同。我用list写出到文件，我就用list的方式读取，中间过程需要序列化。
 
 #import librosa
 #import pickle
@@ -506,31 +501,27 @@ class test(Scene):
 
         f1_lambda = 5;f2_lambda = 11;f3_lambda = 8
         set_data = {'f_set':[
-            lambda x: 0.15*(np.cos(1*TAU*x)+np.cos(2*TAU*x)+np.cos(3*TAU*x)+np.cos(4*TAU*x)+np.cos(5*TAU*x)+np.cos(6*TAU*x)\
-            +np.cos(7*TAU*x)+np.cos(8*TAU*x)+np.cos(9*TAU*x)
-            ),
             lambda x: y_scale*(np.cos(f1_lambda*TAU*x)+1),
             lambda x: y_scale*(np.cos(f2_lambda*TAU*x)+1),
             lambda x: y_scale*(np.cos(f1_lambda*TAU*x)+0.5*np.cos(f2_lambda*TAU*x)+1.5),
             lambda x: y_scale*(np.cos(f1_lambda*TAU*x)+0.5*np.cos(f3_lambda*TAU*x)+1.5),
-            lambda x: y_scale*(np.sin(f1_lambda*TAU*x)+0.5*np.sin(f2_lambda*TAU*x)+1.5),
+            lambda x: y_scale*(np.cos(f1_lambda*TAU*x)+np.cos(f3_lambda*TAU*x)+2),
         ],
         'color_set':[
             YELLOW_A,
-            YELLOW_A,
             YELLOW_B,
+            YELLOW_C,
             PINK,
             RED_A,
             RED_D,
         ],
         #It will be normalized the style automatically,like match the color,scale and Mobject position.
         'tex_set':[
-            MathTex(r'666'),
             MathTex(r'\cos({}\pi \cdot x)'.format(f1_lambda)),
             MathTex(r'\cos({}\pi \cdot x)'.format(f2_lambda)),
             MathTex(r'\cos({}\cdot 2\pi \cdot x)+0.5\cos({}\cdot 2\pi \cdot x)'.format(f1_lambda,f2_lambda)),
             MathTex(r'\cos({}\cdot 2\pi \cdot x)+0.5\cos({}\cdot 2\pi \cdot x)'.format(f1_lambda,f3_lambda)),
-            MathTex(r'\sin({}\cdot 2\pi \cdot x)+0.5\sin({}\cdot 2\pi \cdot x)'.format(f1_lambda,f2_lambda)),
+            MathTex(r'\cos({}\cdot 2\pi \cdot x)+0.5\cos({}\cdot 2\pi \cdot x)'.format(f1_lambda,f2_lambda)),
         ],
         #It will be initializated automatically
         'graph_label_set':[],
@@ -597,7 +588,7 @@ class test(Scene):
 
 
         label_Da = Text('Winding Freq:')
-        group_Da = VGroup(label_Da,Da).arrange(RIGHT).next_to(graph_freqD,DOWN)
+        group_Da = VGroup(label_Da,Da).arrange(RIGHT).next_to(freqD_axis,DOWN)
 
         ###############
         #绘制三个坐标轴
@@ -625,17 +616,17 @@ class test(Scene):
         self.wait()
         self.play(ChangeDecimalToValue(Da,11,run_time=5))
         self.wait()
-        # play_change_channel(2)
-        # self.wait()
-        # self.play(ChangeDecimalToValue(Da,8,run_time=5))
-        # self.wait()
-        # play_change_channel(3)
-        # self.wait()
-        # self.play(ChangeDecimalToValue(Da,5,run_time=5))
-        # self.wait()
-        # play_change_channel(4)
-        # self.wait()
-        # self.play(ChangeDecimalToValue(Da,11,run_time=5))
+        play_change_channel(2)
+        self.wait()
+        self.play(ChangeDecimalToValue(Da,8,run_time=5))
+        self.wait()
+        play_change_channel(3)
+        self.wait()
+        self.play(ChangeDecimalToValue(Da,5,run_time=5))
+        self.wait()
+        play_change_channel(4)
+        self.wait()
+        self.play(ChangeDecimalToValue(Da,11,run_time=5))
 
 
 
@@ -915,7 +906,7 @@ class M_Shift(Scene):
 
             ax_TOTAL = VGroup(axes).next_to(text_pos,DOWN)
             dots_set = self.Create_Dot_Set(axes,sample_part,ax_TOTAL)
-#
+
             #self.add(ax_TOTAL,text_pos)#Add coordinates()
             #self.add(text_pos)
             
@@ -944,4 +935,3 @@ class uAndM(Scene):
         ss = ImageMobject('uam.jpeg').scale(0.8)
         self.play(FadeIn(ss))
         
-#hello
