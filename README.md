@@ -26,11 +26,13 @@
 
   五度相生律，规定构成纯五度音程的两个音的频率规定为2:3。这种每隔五度产生一律，继续相生而得各律的做法，称为“五度相生法”。
 
-![musicPyMido_1_37.png][1]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/02926865-c0f8-4b33-8252-8a1a16dc40de)
+
 
   其中，由于最大音差的存在，使五度相生律无法在十二律上循环构成各调音阶，即从主音出发，生律十二次（或更多次）并纳入同一八度后，无法回到主音，这对五度相生律的使用造成了一定障碍。
 
-![musicPyMido_1_36.png][2]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/6d89f2d1-8f93-4efe-b581-8e1c154e1b8b)
+
 
 ##   4、纯律（just intonation）
 
@@ -66,7 +68,8 @@ $$
 
 ##   1、音乐体系、音列
 
-![musicPyMido_1_35.png][3]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/25a609ec-49de-46a6-be40-bc3ac3cea6b0)
+
 
   钢琴有88个键。这些乐音加起来的总和叫做--音乐体系。
 
@@ -78,17 +81,20 @@ $$
 
   这七个音级也称为基本音级，在钢琴键盘上的位置是固定不变的。
 
-![musicPyMido_1_34.png][4]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/02173217-596b-4949-bd8f-b2826dac5578)
+
 
 ##   3、音的分组
 
   钢琴划分不同的区域。
 
-![musicPyMido_1_33.png][5]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/3e454ffe-0e50-43c4-a238-fe010d68d961)
+
 
   钢琴键盘上中央C开始的这一音组称为小字一组，也是“轴心组”。小字一组往右方依次称为小字二组、小字三组、小字四组、小字五组；小字一组往左方依次称为小字组、大字组、大字一组、大字二组
 
-![musicPyMido_1_32.png][6]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/9f49b9cf-243b-46f8-b266-da91dff4a7b1)
+
 
 # 三、基础乐理----p2----五线谱&音符
 
@@ -97,23 +103,28 @@ $$
 
   谱表由五线四间构成，用于记录音符高低。由于谱表有五条等距离平行横线，因此称为五线谱。
 
-![musicPyMido_1_31.png][7]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/6c7935d4-5915-4e9d-9172-ccf19b6f8e77)
+
 
 ##   2、谱号
 
   这里简单认识一下高音谱号就好了。除此，还有低音谱号、中音谱号。
 
-![musicPyMido_1_30.png][8]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/0665d456-a3d4-4a27-9efb-72743bc63b7d)
 
-![musicPyMido_1_29.png][9]
+
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/49c8f9b5-d00e-46cd-aa36-bd82855d3b5e)
+
 
 ##   3、音符
 
   音符由三部分组成：符头（空心或实心的椭圆形符号）、符干（短竖线）和符尾（符干右侧的小弧线）。
 
-![musicPyMido_1_28.png][10]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/4cf58ec8-875e-47bf-bf96-77131d2307dd)
 
-![musicPyMido_1_27.png][11]
+
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/dd661a3b-45b7-4087-8559-621717498779)
+
 
 ##   4、休止符
 
@@ -121,7 +132,8 @@ $$
 
   在音乐进行中，休止符虽然表示短暂的无声，但此时有着特殊的意义，而且音乐并没有中断，因此休止符是音乐作品中的重要组成部分之一。
 
-![musicPyMido_1_26.png][12]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/1481c4e8-1af6-4943-9f17-fb2dd3570faa)
+
 
 ##   5、拍号
 
@@ -129,7 +141,8 @@ $$
 
   此外，拍号还明确了旋律的强弱变化规律。
 
-![musicPyMido_1_25.png][13]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/610d15d1-ace6-4e25-a5c8-9d97618935be)
+
 
 # 四、基础乐理----p3----音程
 
@@ -146,15 +159,18 @@ $$
 
   按照发声先后读。
 
-![musicPyMido_1_24.png][14]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/c254decb-ee80-4b8e-8a9c-bf9699e5f39f)
+
 
 ##   3、和声音程
 
   下方的音称为根音，上方的音称为冠音。
 
-![musicPyMido_1_23.png][15]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/6a6c1c65-54e7-40af-84d4-cf09d3fffd3b)
 
-![musicPyMido_1_22.png][16]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/6efe9417-e0d5-4544-a0d2-55fe9a37767a)
+
+
 
 ##   4、协和音程与不协和和音程
 
@@ -180,7 +196,8 @@ $$
 
   其中，巴赫的《十二平均律》更是大小调式的经典中的经典。
 
-![musicPyMido_1_21.png][17]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/e9f9e087-9062-4a6a-a6de-bbde803a5f82)
+
 
 ##   2、主音
 
@@ -190,7 +207,8 @@ $$
 
   大调式简称为“大调”，由七个音级构成。它的主音与Ⅲ级音之间为大三度音程关系，这个大三度也是大调式的特征所在。其中Ⅰ、Ⅲ、Ⅴ级音构成大三和弦，因此大调式的色彩是明亮、辉煌的。
 
-![musicPyMido_1_20.png][18]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/bff55698-6647-4eb8-8c9d-2e667352a301)
+
 
   大调式共有三种类型：自然大调、和声大调和旋律大调。
 
@@ -198,13 +216,15 @@ $$
 
     自然大调是大调中用得最多的一种，全部由自然音级构成。
 
-![musicPyMido_1_19.png][19]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/e0fb0b1a-b645-4203-a9cd-8eba0473d911)
+
 
     自然大调音阶由五个全音和两个半音组成，
 
     其音阶结构是：全音-全音-半音-全音-全音-全音-半音，即由大二度、大二度、小二度、大二度、大二度、大二度、小二度音程组成。
 
-![musicPyMido_1_18.png][20]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/b54c9ed2-5523-42f4-80a9-bb19cffd8b3f)
+
 
 **      C和D之间隔了一个音（黑键），所以CD叫全音。**
 
@@ -216,7 +236,8 @@ $$
 
     C自然大调如下图所示：
 
-![musicPyMido_1_17.png][21]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/99ef15dd-ff22-4faa-a370-00c23852b754)
+
 
 ###     2、和声大调
 
@@ -228,7 +249,8 @@ $$
 
     C和声大调音阶如下图所示：
 
-![musicPyMido_1_16.png][22]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/f7231dc3-545b-4b0d-bd2e-e9ce435e0d2b)
+
 
 ###     3、旋律大调
 
@@ -240,7 +262,8 @@ $$
 
     C旋律大调音阶如下图所示：
 
-![musicPyMido_1_15.png][23]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/387ad7d7-2dc4-4d2b-aa5d-bfe69004bd43)
+
 
 ##   4、小调式
 
@@ -248,7 +271,8 @@ $$
 
   它的主音与Ⅲ级音之间为小三度音程关系，这个小三度也是小调式的特征所在。其中Ⅰ、Ⅲ、Ⅴ级音构成小三和弦，因此小调式的色彩是柔和、暗淡的。
 
-![musicPyMido_1_14.png][24]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/31bda838-4454-4f2f-93cb-92c0811ec403)
+
 
   小调也有三种类型：自然小调、和声小调和旋律小调。
 
@@ -258,11 +282,13 @@ $$
 
     a自然小调如下图所示：
 
-![musicPyMido_1_13.png][25]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/abe9617d-349b-4e5f-ab9b-5c3b80424c04)
+
 
     为了便于熟记，编成口诀为：全、半、全、全、半、全、全。
 
-![musicPyMido_1_12.png][26]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/7e3adec5-5b8b-4f3a-a9b6-6e90e13fd010)
+
 
 ###     2、和声小调
 
@@ -272,7 +298,8 @@ $$
 
     a和声小调如下图所示：
 
-![musicPyMido_1_11.png][27]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/92cda83c-6622-4769-8617-48aeeed13828)
+
 
 ###     3、旋律小调
 
@@ -280,7 +307,8 @@ $$
 
     a旋律小调如下图所示：
 
-![musicPyMido_1_10.png][28]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/2e55ed12-6932-409e-a175-2f062039a427)
+
 
 # 六、基础乐理----p5----调号
 
@@ -291,23 +319,24 @@ $$
 
   调号是用升、降记号来记写的。
 
-![musicPyMido_1_9.png][29]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/22b19363-077a-4cf3-ab25-4bee7b87c1f9)
 
-![musicPyMido_1_8.png][30]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/f438945f-d01c-4b47-99cf-cd02291e45e6)
 
-![musicPyMido_1_7.png][31]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/7f89d197-72c2-4bc4-a619-4054ef454b41)
 
-![musicPyMido_1_6.png][32]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/edc23410-0105-413c-90e9-3aa9c9886460)
 
-![musicPyMido_1_5.png][33]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/14e922f2-e179-4522-a4b8-91edc3f62295)
 
-![musicPyMido_1_4.png][34]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/7b3be557-d4eb-46a8-90b3-b2b1315613d6)
 
-![musicPyMido_1_3.png][35]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/e89491dc-2474-445f-8b47-60809c6552ba)
 
-* * *
 
-* * *
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/7d3d752e-5aaf-4dc5-9ea5-ae43b117faee)
+
+
 
 # **python编曲部分：**
 
@@ -352,14 +381,16 @@ $$
 
 代码如下：
 
-![musicPyMido_1_2.png][36]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/1db20f52-2a2b-4f3a-a7ab-494a8d21fae7)
+
 
 # 二、结合乐理
 
 
 ## 1、midi文件频率编号表格：
 
-![musicPyMido_1_1.png][37]
+![image](https://github.com/Remyuu/Music_Math_Video/assets/64857501/13df8ea7-e7fe-46e5-8def-db2481a4fa73)
+
 
 由上表可知，中央C的midi编号是60 。
 
